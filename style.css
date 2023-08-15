@@ -1,0 +1,76 @@
+header{
+    height: 15vh;
+    background-color: blue;
+    width: 100%;
+    padding: 10px 0px 10px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 30px;
+}
+.para{
+    border: none;
+    width: 20rem;
+    line-height: 15px;
+}
+.sub{
+    font-size: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 10px;
+    padding: 30px;
+    background-color: rgb(196, 222, 245);
+    justify-items: center;
+    justify-content: center;
+}
+.flex{
+    width: 300px;
+    text-align: left;
+}
+.big{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(56, 4, 243);
+    line-height: 25px;
+}
+.nin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+}
+button{
+    background-color: rgb(1, 1, 122);
+    color: white;
+    font-size: small;
+    width: 120px;
+    padding: 10px;
+    font-family: monospace;
+}
+.containe{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 10px;
+    padding: 30px;
+    justify-items: center;
+    justify-content: center;
+}
+.bi{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 37px;
+    color: rgb(56, 4, 243);
+    line-height: 25px;
+    letter-spacing: 5px;
+}
+.fley{
+    width: 200px;
+    text-align: left;
+}
+li{
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+}
